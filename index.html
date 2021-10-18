@@ -1,0 +1,59 @@
+<html>
+
+    <head>
+        <link rel='stylesheet', href='style.css'/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">    
+    </head>
+
+    <body>
+        
+        <div class="header">ez generate</div>
+        
+        <div class="main">
+            <div>
+           
+                <input id="password"  type="text"> 
+            </div>
+           
+            <button onclick="generate(lenth)"></button>
+            <input type="range" min="1" max="20" value="8" onmousemove="getLenth()" onchange="getLenth()"  id="lenthRange">
+            <input id="num"   type="text" value="8"  > 
+        </div>
+        
+       
+        
+       
+
+       
+
+
+
+
+
+
+        <div class="checkboxs">
+            <div class="titles_container">
+                <p>symbols</p>
+                <p>numbers</p>
+                <p>upper case</p>
+                <p>lower case</p>
+
+            </div>
+           <div class="boxes-container">
+                  <input type="checkbox" checked id="checkbox-1" onclick="update()"> 
+           
+                  <input type="checkbox" checked id="checkbox-2" onclick="update()"> 
+           
+                  <input type="checkbox" checked id="checkbox-3" onclick="update()"> 
+           
+                  <input type="checkbox" checked id="checkbox-4" onclick="update()">
+            </div> 
+        </div>
+        <script src="main.js"></script>
+        
+    </body>
+        
+</html>
